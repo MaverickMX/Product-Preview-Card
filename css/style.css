@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Formato de la tarjeta */
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tarjeta{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.imagenTarjeta{
+    width: 100%;
+}
+
+.imagenTarjeta img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.textosTarjeta{
+    width: 100%;
+    padding: 2rem;
+}
+
+.textosTarjeta h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+.textosTarjeta h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    margin-block: 1rem;
+}
+
+.textoPrincipal{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5rem;
+}
+
+.precios{
+    margin-block: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.precioDescuento{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+
+.precioRegular{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+ button{
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 100%);
+    padding-block: 1rem;
+    width: 250px;
+    border: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    border-radius: 10px;
+ }
+
+ button:hover{
+    background-color: hsl(158, 35%, 11%);
+ }
+/* Formato para la atribución */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
