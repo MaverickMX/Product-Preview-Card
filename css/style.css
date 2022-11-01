@@ -33,6 +33,10 @@ body{
     height: 100%;
 }
 
+.imgDos{
+    display: none;
+}
+
 
 .textosTarjeta{
     width: 100%;
@@ -98,3 +102,25 @@ body{
 /* Formato para la atribución */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 375px){
+    .tarjeta{
+        flex-direction: column;
+        width: 100%;
+        margin: .5rem;
+        width: 340px;
+    }
+
+    .imgUno{
+        display: none;
+    }
+
+    .imgDos{
+        display: block;
+    }
+
+    button{
+      
+        width: 280px;
+    }
+}
